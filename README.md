@@ -4,4 +4,4 @@
 
 <br/>
 
-This repository contains all homework assignments for the Browsers Module.
+This repository contains all homework assignments for the Browsers/JavaScript-2 Module.
