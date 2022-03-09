@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5c6a5;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: #ebe6e6;
+  line-height: 2;
+}
+
+.container {
+  background-color: #ff7777;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  width: 40%;
+  border: 20px outset rgb(83, 77, 77);
+  border-radius: 20px;
+  padding: 2% 0;
+}
+
+.set-time {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  padding: 1.5% 5%;
+}
+
+.clock {
+  border: 5px solid #ebe6e6;
+  border-radius: 20px;
+  width: 350px;
+  padding: 20px 0;
+  margin: 5% auto;
+}
+
+#duration,
+#time-display {
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+}
