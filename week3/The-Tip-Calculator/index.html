@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>The Tip Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h3>Tip Calculator</h3>
+    </header>
+    <div>
+      <form>
+        <label>How much was your bill?</label>
+        <input type="number" id="bill" min='0'>
+        <i class="fas fa-dollar-sign fa-xs"></i>
+
+        <label>How was your service?</label>
+        <select id="service" name="service">
+          <option value="" disabled selected>Choose an option ...</option>
+          <option value="0.3">30% - Outstanding</option>
+          <option value="0.2">20% - Good</option>
+          <option value="0.15">15% - OK</option>
+          <option value="0.10">10% - Bad</option>
+          <option value="0.05">5% - Terrible</option>
+        </select>
+    
+        <label>How many people are sharing the bill?</label>
+        <input type="number" id="people" min="1">
+        <input type="submit" value="Calculate" id='calculate'>
+      </form>
+    </div>
+
+    <!-- Tip Amount -->
+    <div class="tip-amount">
+      <h4 id="tip-amount">Tip Amount:</h4>
+      <p id="amount">$ 0</p>
+      <p id="for-each">each</p>
+    </div>
+  </div>
+
+    <!-- Alert -->
+    <div id="alert">
+      <div class="alert-box">
+        <p>Please fill in all fields !</p>
+        <button id="close">OK</button>
+      </div>
+    </div>
+
+  <footer>
+    <p>&copy;2021 Created by Marzieh !</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

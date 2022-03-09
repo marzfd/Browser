@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/5/pulse/bootstrap.min.css">
+  <title>MyBookList</title>
+</head>
+<body>
+  <div class="container p-5 position-absolute top-0 start-50 translate-middle-x">
+    <div class="col-11 mt-3 m-5">
+      <h1 class="display-1">
+        <i class="fas fa-book-open text-warning"></i>
+        My<span class="text-warning">Book</span>List</h1>
+        <form id="book-form">
+          <div class="form-group mb-3 mt-5">
+            <label for="title" class="form-label"><strong>Title</strong></label>
+            <input type="text" id="title" class="form-control form-control-lg">
+          </div>
+          <div class="form-group mb-3">
+            <label for="author" class="form-label"><strong>Author</strong></label>
+            <input type="text" id="author" class="form-control form-control-lg">
+          </div>
+          <div class="form-group mb-3">
+            <label for="isbn" class="form-label"><strong>ISBN#</strong></label>
+            <input type="text" id="isbn" class="form-control form-control-lg">
+          </div>
+          <input type="submit" value="Add Book" class="btn btn-primary mt-3 col-12 mx-auto fs-5">
+        </form>
+        <table class="table table-striped table-hover mt-5">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>ISBN#</th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+    </div>
+  </div>
+  <footer>
+    <p class="position-absolute bottom-0 start-50 translate-middle-x m-5 ">&copy;2021 Created By Marzieh !</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

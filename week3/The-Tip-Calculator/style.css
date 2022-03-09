@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4b5b0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: #383e56;
+}
+
+.container {
+  width: 500px;
+  height: 750px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 30px 10px #383e5660;
+}
+
+header {
+  margin: 3% 0;
+  padding: 3%;
+  margin-bottom: 7%;
+  border-bottom: 1px solid #383e56;
+}
+
+input[type='number'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #eedad1;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+input[type='submit'] {
+  width: 100%;
+  background-color: #f69e7b;
+  color: #383e56;
+  padding: 14px 20px;
+  margin: 40px 0 15px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+input[type='submit']:hover {
+  background-color: #383e56;
+  color: #f2f2f2;
+}
+
+label {
+  font-size: 1.7rem;
+}
+
+#bill {
+  padding-left: 55px;
+}
+
+input:last-child {
+  font-weight: 500;
+}
+
+i {
+  color: #383e56;
+  position: absolute;
+  top: 23.8%;
+  left: 21px;
+  font-size: 1.2em;
+  border-right: 1px solid #eedad1;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding: 14px 15px;
+  background-color: #383e5610;
+}
+
+#alert {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 30%;
+  left: 35%;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.alert-box {
+  background-color: #383e56;
+  color: #f2f2f2;
+  width: 30%;
+  height: 18%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 35px 15px;
+  font-size: 1em;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  width: 15%;
+  height: 35%;
+  margin-top: 5%;
+  background-color: #f69e7b;
+  color: #383e56;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tip-amount {
+  text-align: center;
+}
+
+.tip-amount p {
+  margin-top: 15px;
+}
+
+#for-each {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 850px;
+}
