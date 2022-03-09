@@ -11,8 +11,8 @@ This repository contains all homework assignments for the [Browsers/JavaScript2 
 <br/>
 
 ## Homework Projects
-* [Book List]()
-* [The Tip Calculator]()
+* [Book List](https://marzfd.github.io/Browsers/week3/BookList-App/index.html)
+* [The Tip Calculator](https://marzfd.github.io/Browsers/week3/The-Tip-Calculator/index.html)
 * [The Pomodoro Clock](https://marzfd.github.io/Browsers/week2/The-Pomodoro-Clock/index.html)
 * [Rock Paper Scissors Game](https://marzfd.github.io/Browsers/week2/Rock-Paper-Scissors-Game/index.html) (Code-along: Traversy Media)
 * [Random Quote Generator](https://marzfd.github.io/Browsers/week1/Random-Quote-Generator/index.html)
